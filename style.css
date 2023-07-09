@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+
+.body {
+  background-color: #DCDCDC;
+}
+
+.container {
+  max-width: 1440px;
+  }
+
+.nav-list {
+  display: flex;
+  margin: 0px -8px 15px -8px;
+  justify-content: center;
+  background-color: #A9A9A9;
+  list-style-type: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  width: 40%;
+}
+
+.photo {
+  width: 50%;
+  text-align: center;
+}
+
+.profile {
+  width: 50%;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.h1 {
+  margin-top: 100px;
+}
+
+.contacts-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.contacts,
+.english,
+.courses,
+.projects,
+.code,
+.skills,
+.summary,
+.education {
+  padding: 0px 20px 0px 40px;
+}
+
+.skills-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.projects-link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-background {
+  display: flex;
+  margin: 0px -8px;
+  justify-content: center;
+  list-style-type: none;
+  line-height: 50px;
+  background-color: #A9A9A9;
+}
+
+.footer-logo {
+  display: block;
+  padding: 0px 70px;
+  width: 50px;
+  height: 50px;
+  background-image: url(https://rs.school/images/rs_school_js.svg);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+}
+
+.footer-date {
+  padding: 0px 70px;
+}
+
+.footer-date-text {
+  padding: 0px 70px;
+}
+
+.footer-date-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
